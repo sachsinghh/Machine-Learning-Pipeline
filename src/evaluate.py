@@ -8,7 +8,7 @@ from urllib.parse import urlparse # to get remote repository
 
 os.environ['MLFLOW_TRACKING_URI']="https://dagshub.com/sachsinghh/Machine-Learning-Pipeline.mlflow"
 os.environ['MLFLOW_TRACKING_USERNAME']='sachsinghh'
-os.environ['MLFLOW_TRACKING_PASSWORD']='1bf6fe3d3fd72208616e9c8ae3fe8ac1ea4c5aeb'
+os.environ['MLFLOW_TRACKING_PASSWORD']='-'
 
 params = yaml.safe_load(open("params.yaml"))['train']
 

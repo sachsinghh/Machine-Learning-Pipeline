@@ -11,7 +11,7 @@ import mlflow
 
 os.environ['MLFLOW_TRACKING_URI']="https://dagshub.com/sachsinghh/Machine-Learning-Pipeline.mlflow"
 os.environ['MLFLOW_TRACKING_USERNAME']='sachsinghh'
-os.environ['MLFLOW_TRACKING_PASSWORD']='1bf6fe3d3fd72208616e9c8ae3fe8ac1ea4c5aeb'
+os.environ['MLFLOW_TRACKING_PASSWORD']='-'
 
 def hyperparameter_tuning(X_train, y_train, param_grid):
     rf = RandomForestClassifier()
